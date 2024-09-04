@@ -3,9 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FigureDLL", "ShapeDLL\FigureDLL.csproj", "{12996868-09AD-4E81-8FC1-F5FF92470DD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FigureDLL", "FigureDLL\FigureDLL.csproj", "{12996868-09AD-4E81-8FC1-F5FF92470DD1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FigureDLL.Test", "ShapeDLL.Test\FigureDLL.Test.csproj", "{06CE0B0D-ACEF-4DDA-9BED-1717AB4B2378}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FigureDLL.Test", "FigureDLL.Test\FigureDLL.Test.csproj", "{06CE0B0D-ACEF-4DDA-9BED-1717AB4B2378}"
+	ProjectSection(ProjectDependencies) = postProject
+		{12996868-09AD-4E81-8FC1-F5FF92470DD1} = {12996868-09AD-4E81-8FC1-F5FF92470DD1}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
