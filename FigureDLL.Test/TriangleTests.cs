@@ -31,14 +31,14 @@
         [Fact]
         public void NotRightTriangle()
         {
-            Assert.False(new Triangle(123, 123, 123).RightAngledTriangle());
+            Assert.False(new Triangle(100, 100, 100).RightAngledTriangle());
         }
 
         [Fact]
         public void RightAngledTriangle() 
         {
 
-            Assert.True(new Triangle(3, 4, 5).RightAngledTriangle());
+            Assert.True(new Triangle(6, 8, 10).RightAngledTriangle());
         }
 
     }

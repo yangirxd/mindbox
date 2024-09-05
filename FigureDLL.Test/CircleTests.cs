@@ -10,7 +10,6 @@ namespace ShapeDLL.Test
         {
             Assert.Throws<ArgumentException>(() => new Circle(0));
             Assert.Throws<ArgumentException>(() => new Circle(-100));
-
         }
 
         [Fact]
